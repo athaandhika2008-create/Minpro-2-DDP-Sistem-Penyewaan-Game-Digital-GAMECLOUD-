@@ -49,6 +49,8 @@ Bagian ini menyimpan data utama yang dipakai oleh program GAMECLOUD. Data terseb
 
 - Peran: Menjadi dasar penyimpanan data GAMECLOUD yang digunakan oleh fitur User maupun Admin selama program berjalan.
 
+---------------------------------------------
+
 2. Input Validation dan Error Handling
   <img width="1582" height="1071" alt="Screenshot 2026-10-06 153121" src="https://github.com/user-attachments/assets/3ef99bb7-7889-4f0b-8934-0c4b03003819" />
 
@@ -57,6 +59,8 @@ Bagian ini menyimpan data utama yang dipakai oleh program GAMECLOUD. Data terseb
 - Fungsi: Memvalidasi input pengguna dan menangani kesalahan agar input yang tidak sesuai tidak langsung menyebabkan program berhenti.
 
 - Peran: Menjadi sistem pengamanan input dalam GAMECLOUD sehingga setiap pilihan menu dan data yang dimasukkan pengguna dapat diperiksa sebelum diproses.
+
+---------------------------------------------
 
 3. Fungsi Data
    
@@ -71,6 +75,8 @@ Bagian ini memuat fungsi buat_id(), caridata(), tampilkangame(), tampilkandata()
 
 - Peran: Menjadi kumpulan function utama yang digunakan kembali oleh User dan Admin sehingga proses pengolahan data tidak perlu ditulis berulang kali.
 
+----------------------------------------------
+
 4. Login dan Registrasi
    <img width="836" height="999" alt="Screenshot 2026-10-06 155621" src="https://github.com/user-attachments/assets/60f76d30-8080-4e26-aea5-c3c9f2db2f71" />
 
@@ -79,6 +85,8 @@ Bagian ini memuat fungsi buat_id(), caridata(), tampilkangame(), tampilkandata()
 - Fungsi: Menangani proses login berdasarkan role serta proses registrasi akun User.
 
 - Peran: Menjadi sistem autentikasi GAMECLOUD yang membedakan hak akses User dan Admin sehingga masing-masing role mendapatkan menu dan proses yang sesuai.
+
+----------------------------------------------
 
 5. Fitur User
    <img width="1314" height="1295" alt="Screenshot 2026-10-06 160248" src="https://github.com/user-attachments/assets/a771f5b7-22f7-40d7-998b-bef84333d152" />
@@ -91,21 +99,31 @@ Bagian ini memuat fungsi lihatpenyewaan_user() dan menu_user() yang mengatur alu
 
 - Peran: Menjadi bagian program yang menangani aktivitas User serta menjadi sumber data penyewaan yang nantinya dapat diakses dan dikelola oleh Admin melalui datasewa.
 
+----------------------------------------------
+
 6. CRUD Admin
 
    <img width="1629" height="833" alt="Screenshot 2026-10-06 160520" src="https://github.com/user-attachments/assets/424a09e9-168b-4343-8519-ca7eeed4390d" />
+
+----------------------------------------------
 
 7. Status Pembayaran Admin
 
    <img width="1473" height="1344" alt="Screenshot 2026-10-06 160541" src="https://github.com/user-attachments/assets/2b5e75f5-0ebe-43b7-8ee5-477ca8aa87a2" />
 
+----------------------------------------------
+
 8. Ringkasan Admin
 
    <img width="1557" height="799" alt="Screenshot 2026-10-06 160605" src="https://github.com/user-attachments/assets/6307e515-a9c3-45c6-bb25-374317d2133e" />
 
+----------------------------------------------
+
 9. Menu Admin
     
 <img width="1606" height="859" alt="Screenshot 2026-10-06 160620" src="https://github.com/user-attachments/assets/629870c7-4947-4947-b0c3-a5a94bd1a639" />
+
+----------------------------------------------
 
 10. Program Utama
     
